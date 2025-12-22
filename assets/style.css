@@ -1,0 +1,55 @@
+/* ===== FORMULÁRIO ===== */
+
+.form-box {
+    max-width: 400px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.form-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-box input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+/* BOTÃO */
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #004999;
+}
+
+/* LINK VOLTAR */
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0066cc;
+}
+
+
